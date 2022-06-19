@@ -42,11 +42,21 @@ System.out.println(myLong);
 System.out.println(shortTotal);
 
 //Floating point
-// float takes 32 digits while doule takes 64.
+// float datatypes
         float myMinFloatValue = Float.MIN_VALUE; //float takes 32bits
         float myMaxFloatValue = Float.MAX_VALUE;
         System.out.println("Float Minimum Value = " + myMinFloatValue);
         System.out.println("Float Maximum Value = " + myMaxFloatValue);
+
+//        Double datatype
+        Double myMinDoubleValue = Double.MIN_VALUE; //double takes 64bits
+        Double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double Minimum Value = " + myMinDoubleValue);
+        System.out.println("Double Maximum Value = " + myMaxDoubleValue);
+
+        float myFloatNumber = 5.2F;
+        double myDoubleNumber = 5.2;
+        int myIntNumber = 5;
 
 
     }
