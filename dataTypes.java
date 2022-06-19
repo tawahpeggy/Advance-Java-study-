@@ -54,10 +54,17 @@ System.out.println(shortTotal);
         System.out.println("Double Minimum Value = " + myMinDoubleValue);
         System.out.println("Double Maximum Value = " + myMaxDoubleValue);
 
-        float myFloatNumber = 5.2F;
-        double myDoubleNumber = 5.2;
-        int myIntNumber = 5;
+        float myFloatNumber = 5F/3;
+        double myDoubleNumber = 5D/3;
+        int myIntNumber = 5/3; //always use floating point numbers when it  comes to division explicitely double
+            System.out.println("myIntNumber = " + myIntNumber);
+            System.out.println("myDoubleNumber = " + myDoubleNumber);
+            System.out.println("myFloatNumber = " + myFloatNumber);
 
+// convertion from pounds to kilograms.
+        double numToBeConverted = 200d;
+        double result = numToBeConverted * 0.45359237;
+        System.out.println("result = " + result);
 
     }
 }
