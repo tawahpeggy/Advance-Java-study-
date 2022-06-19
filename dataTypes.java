@@ -27,10 +27,10 @@ System.out.println("Long Minimum Value = " + myMinLongValue);
 System.out.println("Long Maximum Value = " + myMaxLongValue);
 
 //Casting
-        byte myNewByteValue = (byte) (myMinByteValue / 2);
-       short myNewShortValue = (short) (myMinShortValue / 2);
-        System.out.println(myNewByteValue);
-        System.out.println( myMinShortValue);
+byte myNewByteValue = (byte) (myMinByteValue / 2);
+short myNewShortValue = (short) (myMinShortValue / 2);
+System.out.println(myNewByteValue);
+System.out.println( myMinShortValue);
 
 //primitive type challenge.
 byte myByte = 10;
@@ -38,7 +38,16 @@ short myShort = 20;
 int myInt = 50;
 long myLong =  50000L + 10L * (long)(myByte + myInt + myShort);
 short shortTotal = (short) (1000 + 10 * (myByte + myInt + myShort));
-        System.out.println(myLong);
-        System.out.println(shortTotal);
+System.out.println(myLong);
+System.out.println(shortTotal);
+
+//Floating point
+// float takes 32 digits while doule takes 64.
+        float myMinFloatValue = Float.MIN_VALUE; //float takes 32bits
+        float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float Minimum Value = " + myMinFloatValue);
+        System.out.println("Float Maximum Value = " + myMaxFloatValue);
+
+
     }
 }
