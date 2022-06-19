@@ -75,6 +75,16 @@ int myValue = 10000;
         System.out.println(mytrueboolValue );
         System.out.println(myFalseBoolValue );
 
+//string : its not a primitive datatype in java but an easier class
+        String myString = "this is my string";
+        myString = myString + " and i love it ";
+        System.out.println(myString + myUnicode + "2019");
+        int old = 50;
+        String news = "10";
+        System.out.println( news +old);
+
+
+
 
 
 
