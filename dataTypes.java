@@ -136,10 +136,53 @@ int myValue = 10000;
             System.out.println("you got the high score5");
         }
         //logical And operator
-        int secondTopScore = 60;
+        int secondTopScore = 95;
         if ((topScore  > secondTopScore) && (topScore <= 100)){
             System.out.println("Greter than second top and score less than or equall to 100");
         }
+        //OR operator
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true");
+        }
+        // assignment and equall operator
+         int newValue = 50;
+//        if (newValue = 50) {
+//            System.out.println("This is bad code");
+//        }
+        if (newValue ==50) {
+            System.out.println("This is good code");
+        }
+        boolean isCar = false;
+        if (isCar == true) {
+            System.out.println("This is not supposed to happen");
+        }
+        if (!isCar) {
+            System.out.println("isCar is not equal to true");
+        }
+        if (isCar) {
+            System.out.println("isCar is true");
+        }
+        //ternary operator
+        boolean wasCar = isCar?true:false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+        int clientAge = 20;
+        boolean isEighteen = (clientAge)==20?true:false;
+        //chalenge
+        double varChallenge = 20.00d;
+        double varChallenge2 = 80.00d;
+        double challengeTotal = 100.00d * (varChallenge + varChallenge2);
+        System.out.println(challengeTotal%40.00d);
+        boolean challengeRealTotal = (challengeTotal) == 0.0?true:false;
+        System.out.println(challengeRealTotal);
+        if(challengeRealTotal != true) {
+            System.out.println("Got Some Remainder");
+        }
+
+
+
+
 
 
 
