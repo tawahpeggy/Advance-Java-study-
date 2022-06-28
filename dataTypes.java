@@ -76,12 +76,75 @@ int myValue = 10000;
         System.out.println(myFalseBoolValue );
 
 //string : its not a primitive datatype in java but an easier class
+        //strings are immutable
         String myString = "this is my string";
         myString = myString + " and i love it ";
         System.out.println(myString + myUnicode + "2019");
         int old = 50;
         String news = "10";
         System.out.println( news +old);
+
+//        operators
+        int addition = 1+69; // addition
+        System.out.println(addition);
+        int previousResult = addition -2;
+        System.out.println(previousResult);
+        System.out.println(addition);
+
+        int multiplication = addition * 10; // multiplication
+        System.out.println("2 * 10 = " + multiplication);
+
+        int division = addition/5; // diviion
+        System.out.println("10/5 = " + division);
+
+        int modulus = addition % 3; //modulus is reminder of division
+        System.out.println(modulus);
+        int increament = modulus++;
+        System.out.println(increament);
+        int decreament = modulus--;
+        System.out.println(decreament);
+        result+=2;
+        System.out.println(result);
+        result*=10;
+        System.out.println(result);
+        result/=10;
+        System.out.println(result);
+        result-= 2;
+        System.out.println(result);
+        //if then statement
+        boolean isAlien = false;
+        if (isAlien == false);
+        {
+            System.out.println("It is not an alien");
+            System.out.println("and i am not scared");
+        }
+        //logical OR operator
+        int topScore = 100;
+        if (topScore!=100){
+            System.out.println("you got the high score1");
+        }
+        if (topScore>=100){
+            System.out.println("you got the high score2");
+        }
+        if (topScore<=100){
+            System.out.println("you got the high score3");
+        }
+        if (topScore>100){
+            System.out.println("you got the high score4");
+        }
+        if (topScore<100){
+            System.out.println("you got the high score5");
+        }
+        //logical And operator
+        int secondTopScore = 60;
+        if ((topScore  > secondTopScore) && (topScore <= 100)){
+            System.out.println("Greter than second top and score less than or equall to 100");
+        }
+
+
+
+
+
 
 
 
